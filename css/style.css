@@ -82,3 +82,65 @@ footer {
     height: 10vh;
     background-color: #222222;
 }
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.fa-chevron-up {
+    font-size: 10px;
+}
+
+.bottom-icons {
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.bottom-icons .fa-solid {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.col-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-sx {
+    justify-content: start;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.footer-center {
+    flex-grow: 2;
+}
+
+.footer-dx {
+    justify-content: end;
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+#end-meeting {
+    display: flex;
+    align-items: center;
+    background-color: #4a4a4a;
+    height: 100%;
+    padding: 0 30px;
+}
+
+#end-meeting a {
+    color: red;
+}
+
+#green-share {
+    color: #49c500;
+}
+
