@@ -113,17 +113,15 @@ footer {
 }
 .footer-sx {
     justify-content: start;
-    flex-grow: 1;
     padding-left: 10px;
 }
 
 .footer-center {
-    flex-grow: 2;
+    flex-wrap: wrap;
 }
 
 .footer-dx {
     justify-content: end;
-    flex-grow: 1;
     height: 100%;
 }
 
